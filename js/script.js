@@ -23,5 +23,4 @@ function saveToLocalStorage() {
     const userData = { email, password, birthday, gender };
     localStorage.setItem('userData', JSON.stringify(userData));
 
-    // alert('Correct!');
 }
