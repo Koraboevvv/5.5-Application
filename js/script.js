@@ -6,7 +6,7 @@ function showPopup() {
 
 function showSign() {
     const sign = document.querySelector('.showSign');
-    sign.classList.toggle('active');
+    sign.classList.toggle('on');
 }
 
 function saveToLocalStorage() {
