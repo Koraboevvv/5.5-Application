@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="showPopup ">
+        <form class="showPopup__wrapper">
+            <div class="close" onclick="showPopup()">X</div>
+            <label class="showPopup__label" for="">Email</label>
+            <input class="showPopup__input" required type="email" placeholder="type your  Email">
+            <label class="showPopup__label" for="">Password</label>
+            <input class="showPopup__input" required type="password" placeholder="type your password">
+            <label class="showPopup__label" for="">Your Birthday</label>
+            <input class="showPopup__input" required type="date" placeholder="type your birthday">
+            <input class="showPopup__gender" type="radio" required name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input class="showPopup__gender" type="radio" required name="gender" value="female" id="female">
+            <label for="female">Female</label>
+            <div class="showPopup__wrapper2">
+            <input class="showPopup__Submit" type="submit" required value="Send">
+            <input class="showPopup__Submit" onclick="showSign()" type="Submit" required value="Next">
+            </div>
+        </form>
+    </div>
+    <div class="showSign ">
+        <form class="showSign__wrapper">
+            <div class="close1" onclick="showSign()">X</div>
+            <label class="showPopup__label" for="">Email</label>
+            <input class="showPopup__input" required type="email" placeholder="type your  Email">
+            <label class="showPopup__label" for="">Password</label>
+            <input class="showPopup__input" required type="password" placeholder="type your password">
+            <div class="showPopup__wrapper2">
+                <input class="showPopup__Submit" onclick="showSign()" type="submit" required value="Back">
+                <input class="showPopup__Submit" type="submit" required value="Send">
+            </div>
+        </form>
+    </div>
+    <header>
+        <nav class="nav">
+            <div class="nav__wrapper">
+                <div class="nav__image">
+                    <p>Application</p>
+                </div>
+                <ul class="nav__collection">
+                    <li>
+                        <a href="#"><span>Home</span></a>
+                    </li>                  
+                    <li>
+                        <a href="#"><span>About</span></a>
+                    </li>                  
+                    <li>
+                        <a href="#"><span>Collection</span></a>
+                    </li>                  
+                    <li>
+                        <a href="#"><span>Contact</span></a>
+                    </li>                  
+                </ul>
+                <div class="nav__btn">
+                    <button class="navbar__btn2" onclick="showPopup()">Create</button>
+                    <button class="navbar__btn1" onclick="showSign()">Sign in</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

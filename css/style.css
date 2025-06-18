@@ -1,0 +1,136 @@
+*{
+    max-width: 1280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+li{
+    list-style: none;
+}
+button,input, select,textarea{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.nav__wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* background: red; */
+    padding: 5px 10px;
+    align-items: center;
+    font-weight: 600;
+}
+.nav__image{
+    font-size: 20px;
+    font-weight: 800;
+}
+.nav__collection{
+    display: flex;
+    gap: 30px;
+}
+.nav__btn{
+    display: flex;
+}
+.nav__btn button{
+    border-radius: 7px;
+    max-width: 150px;
+    padding: 11px 0;
+    background: green   ;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.showPopup{
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 450px;
+    background: #aaa;
+    border-radius: 10px;
+}
+.showPopup.active{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.showPopup__wrapper{
+    padding: 11px 11px 11px 0px;
+    /* text-align: center; */
+    max-width: 560px;
+    /* padding-top: 11px; */
+    font-weight: 600;
+    margin-top: 10%;
+}
+.showPopup__input{
+    margin-top: 10px;
+    height: 33px;
+    padding-left: 17px;
+    border-radius: 6px;
+    margin-bottom: 11px;
+}
+.showPopup__gender{
+    max-width: 20px;
+    margin: 11px 0px 25px 0px;
+}
+.showPopup__Submit{
+    display: block;
+    max-width: 170px;
+    height: 40px;
+    border-radius: 7px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.showPopup__wrapper2{
+    display: flex;
+    /* gap: 10px; */
+}
+
+.showSign{
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 600px;
+    height: 450px;
+    background: #aaa;
+    border-radius: 10px;
+}
+.showSign.on{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.showSign__wrapper{
+    padding: 11px 11px 11px 0px;
+    /* text-align: center; */
+    max-width: 560px;
+    /* padding-top: 11px; */
+    font-weight: 600;
+    margin-top: 10%;
+}
+.close{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 95%;
+}
+.close1{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 95%;
+}
