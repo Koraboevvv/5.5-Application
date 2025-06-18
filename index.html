@@ -21,7 +21,7 @@
             <input class="showPopup__gender" type="radio" required name="gender" value="female" id="female">
             <label for="female">Female</label>
             <div class="showPopup__wrapper2">
-            <input class="showPopup__Submit" type="submit" required value="Send">
+            <input class="showPopup__Submit" type="button" required  onclick="saveToLocalStorage()"  value="Send">
             <input class="showPopup__Submit" onclick="showSign()" type="Submit" required value="Next">
             </div>
         </form>
@@ -35,7 +35,7 @@
             <input class="showPopup__input" required type="password" placeholder="type your password">
             <div class="showPopup__wrapper2">
                 <input class="showPopup__Submit" onclick="showSign()" type="submit" required value="Back">
-                <input class="showPopup__Submit" type="submit" required value="Send">
+                <input class="showPopup__Submit"  type="submit" required value="Send">
             </div>
         </form>
     </div>
